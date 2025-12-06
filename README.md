@@ -19,4 +19,4 @@ Instructions:
 
 Notes:
 - This repo uses minimal JS scripts for "build" so Docker builds work without Angular/Nest CLI.
-- You can replace the frontend/backend with real Angular/Nest projects later; Dockerfiles and workflow are compatible .
+- You can replace the frontend/backend with real Angular/Nest projects later; Dockerfiles and workflow are compatible ttt.
