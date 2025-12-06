@@ -1,0 +1,10 @@
+const express = require('express');
+const app = express();
+const port = process.env.PORT || 3000;
+
+app.get('/health', (req, res) => res.json({ status: 'ok' }));
+app.get('/api/hello', (req, res) => res.json({ msg: 'Hello from backend-demo' }));
+
+app.listen(port, () => {
+  console.log(`Backend demo listening on port ${port}`);
+});
